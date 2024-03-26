@@ -3,7 +3,7 @@
 ### Simple calculator using only HTML, CSS & JS.
 
 
-![Calculator Image](./assets/img/calculator.png)
+![Calculator Image](./assets/img/newcalculator.png)
 
 ---
 ``` js
