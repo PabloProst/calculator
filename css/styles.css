@@ -1,0 +1,30 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#calculator-app {
+    height: 35em;
+    width: 25em;
+
+    border: solid 1px black;
+    border-radius: 5px;
+}
+
+#calculator-app form {
+    height: 100%;
+    width: 100%;
+    
+    background-color: black;
+}
+
+#calculator-app input[type=text] {
+    width: 29.5em;
+}
