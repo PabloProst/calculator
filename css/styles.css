@@ -6,29 +6,31 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(to bottom right, #e73e44, #72240e);
 }
 
 #calculator-app {
     height: 35em;
     width: 25em;
-    border-radius: 5px;
 }
 
 #calculator-app form {
     height: 100%;
     width: 100%;
     background-color: black;
+    border-radius: 1em;
 }
 
 #calculator-app input[type=text] {
     height: 25%;
     width: 98.5%;
-    font-size: 2em;
+    font-size: 4em;
     cursor: default;
     text-align: right;
     outline: none;
     border: 0;
     border: solid 1px black;
+    border-radius: 0.5em;
 }
 
 #calculator-app input[type=button],
@@ -39,6 +41,21 @@ input[type=reset] {
     padding: 10px;
     margin: 4.4px;
     height: 16.5%;
-    border-radius: 100%;
     font-size: 2em;
+    color: black;
+    border-radius: 1em;
+}
+
+.result-box {
+    background-color: black;
+    color: white
+}
+
+.orange {
+    background-color: orange;
+}
+
+.white {
+    background-color: yellow;
+    color: black;
 }

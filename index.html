@@ -11,28 +11,28 @@
 <body>
     <div id="calculator-app">
         <form name="calculator">
-            <input type="text" name="result" value="" autocomplete="off" readonly>
+            <input type="text" name="result" value="" autocomplete="off" readonly class="result-box">
 
             <input type="button" value="7" onclick="document.calculator.result.value+='7'">
             <input type="button" value="8" onclick="document.calculator.result.value+='8'">
             <input type="button" value="9" onclick="document.calculator.result.value+='9'">
-            <input type="button" value="+" onclick="document.calculator.result.value+='+'">
+            <input type="button" value="+" onclick="document.calculator.result.value+='+'" class="orange">
             <br>
             <input type="button" value="4" onclick="document.calculator.result.value+='4'">
             <input type="button" value="5" onclick="document.calculator.result.value+='5'">
             <input type="button" value="6" onclick="document.calculator.result.value+='6'">
-            <input type="button" value="-" onclick="document.calculator.result.value+='-'">
+            <input type="button" value="-" onclick="document.calculator.result.value+='-'" class="orange">
             <br>
             <input type="button" value="1" onclick="document.calculator.result.value+='1'">
             <input type="button" value="2" onclick="document.calculator.result.value+='2'">
             <input type="button" value="3" onclick="document.calculator.result.value+='3'">
-            <input type="button" value="x" onclick="document.calculator.result.value+='*'">
+            <input type="button" value="x" onclick="document.calculator.result.value+='*'" class="orange">
             <br>
             <input type="button" value="0" onclick="document.calculator.result.value+='0'">
-            <input type="reset" value="C">
+            <input type="reset" value="C" class="white">
             <input type="button" value="="
-                onclick="document.calculator.result.value=eval(document.calculator.result.value)">
-            <input type="button" value="/" onclick="document.calculator.result.value+='/'">
+                onclick="document.calculator.result.value=eval(document.calculator.result.value)" class="white">
+            <input type="button" value="/" onclick="document.calculator.result.value+='/'" class="orange">
         </form>
     </div>
 </body>
